@@ -22,5 +22,4 @@ public class TesteLampada {
         System.out.println("A lâmpada 1 está " + lampada1.verificarEstado());
         System.out.println("\nA lâmpada 2 está " + lampada2.verificarEstado());
     }
-    
 }

@@ -16,15 +16,22 @@ public class Lampada {
     public Lampada() {
     }
     
-    
+    /**
+     * Este método irá ligar a lâmpada.
+     */
     public void ligar(){
         ligada = true;
     }
-    
+    /**
+     * Este método irá desligar a lâmpada.
+     */
     public void desligar(){
         ligada = false;
     }
-    
+    /**
+     * Este método irá verificar se a lâmpada está ligada ou desligada.
+     * @return 
+     */
     public String verificarEstado(){
         String srt;
         if(ligada == true){
