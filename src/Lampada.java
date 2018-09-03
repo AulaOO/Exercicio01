@@ -9,19 +9,27 @@
  * @author Luis Guilherme
  */
 public class Lampada {
-    private String ligada;
+    private boolean ligada = false;
     
     public void ligar(){
-        
+        ligada = true;
     }
     
     public void desligar(){
-        
+        ligada = false;
     }
     
-    public void verificarEstado(){
-        
+    public String verificarEstado(){
+        String srt;
+        if(ligada == true){
+            srt = "\"Ligada\"";
+        }
+        else{
+            srt = "\"Desligada\"";
+        }
+        return srt;
     }
+    
     
     
 }
