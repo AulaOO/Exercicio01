@@ -13,7 +13,7 @@ package exercicio1;
 public class Lampada {
     private boolean ligada = false;
 
-    public Lampada() {
+    public Lampada() { 
     }
     
     /**
